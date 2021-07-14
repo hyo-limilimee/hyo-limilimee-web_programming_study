@@ -3,6 +3,8 @@
 <head>
     <title>WEB1- CSS</title>
     <meta charset="utf-8">
+    <script src="colors.js"></script>
+
     <style>
     body{
       margin:0;
@@ -53,9 +55,12 @@
     }
 </style>
 </head>
-<body>
-  <h1><a href="index.html"><font color= "orange">WEB</a></h1>
-<div id="grid">
+
+<h1><a href="index.html">WEB</a></h1>
+<input id="night_day" type="button" value="night" onclick="
+   nightDayHandler(this);
+ ">
+  <div id="grid">
   <ol>
     <li><a href="1.html"class="saw">HTML</a></li>
     <li><a href="2.html" class="saw">CSS</a></li>
@@ -63,9 +68,9 @@
   </ol>
 <div=id"article">
 
-<h2><font color= "red">JavaScript</h2>
+<h2>JavaScript</h2>
 
-<p><font color= "black"><a href="https://terms.naver.com/entry.naver?docId=3580851&cid=59088&categoryId=59096">
+<p><a href="https://terms.naver.com/entry.naver?docId=3580851&cid=59088&categoryId=59096">
 [ Javascript ]  </a>
 우리가 매일 접속하는 웹사이트는 크게 3가지 요소로 구성된다. ‘HTML(Hyper Text Markup Language)’,
  ‘CSS(Cascading Style Sheets)’, ‘자바스크립트(Javascript)’다. HTML은 웹페이지의 큰
