@@ -3,6 +3,7 @@
 <head>
     <title>WEB1- CSS</title>
     <meta charset="utf-8">
+  <script src="colors.js"></script>
     <style>
     body{
       margin:0;
@@ -54,7 +55,10 @@
 </style>
 </head>
 <body>
-<h1><a href="index.html"><font color= "orange">WEB</a></h1>
+  <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+     nightDayHandler(this);
+   ">
 <div id="grid">
   <ol>
     <li><a href="1.html"class="saw">HTML</a></li>
@@ -63,9 +67,9 @@
   </ol>
   <div=id"article">
 
-   <h2><font color= "red">CSS</h2>
+   <h2>CSS</h2>
 
-   <p><font color= "black">CSS</h2><a href="https://terms.naver.com/entry.naver?docId=1179641&cid=40942&categoryId=32854" target="_blank" title="html5 specification">
+   <p>CSS</h2><a href="https://terms.naver.com/entry.naver?docId=1179641&cid=40942&categoryId=32854" target="_blank" title="html5 specification">
   CSS[ cascading style sheets] 는 </a>기존의 HTML은 웹 문서를 다양하게 설계하고 수시
   로 변경하는데 많은 제약이  따르는데, 이를 보완하기 위해 만들어진 것이 스타일 시트이고 <strong><u>스타일 시트의 표준안</u></strong>이
   바로 CSS이다. 간단히 스타일 시트라고도 한다.
